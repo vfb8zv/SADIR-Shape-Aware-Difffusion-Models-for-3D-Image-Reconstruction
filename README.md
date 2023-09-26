@@ -18,11 +18,9 @@ If you use our code, please cite: \
             \}
 
 ### Usage
-##### Setup: \
+##### Setup: 
 - Lagomorph (https://github.com/jacobhinkle/lagomorph)
 - PyTorch 1.12.0
 - GCC 11.2.0
 - CUDA 11.4.2
-
-
 For training our model, please refer to the "training.ipynb" Jupyter notebook.
