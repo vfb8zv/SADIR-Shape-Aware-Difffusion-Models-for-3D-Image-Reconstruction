@@ -20,21 +20,21 @@ If you use our code, please cite: \
 ### Usage
 Listed below are the requirements to set up the environment in order to train SADIR.
 ##### Setup: 
-- Lagomorph ()
+- Lagomorph
 - PyTorch 1.12.0
 - GCC 11.2.0
 - CUDA 11.4.2 \
 For training our model, please refer to the "training.ipynb" Jupyter notebook.
 
 #### Referenced Repositories:
-[MedShapeNet](https://github.com/Jianningli/medshapenet-feedback)
-[Lagomorph](https://github.com/jacobhinkle/lagomorph)
-[VoxelMorph](https://github.com/voxelmorph/voxelmorph)
-[Geo-SIC](https://github.com/jw4hv/Geo-SIC)
-[Guided-Diffusion](https://github.com/openai/guided-diffusion)
+[MedShapeNet](https://github.com/Jianningli/medshapenet-feedback) \
+[Lagomorph](https://github.com/jacobhinkle/lagomorph) \
+[VoxelMorph](https://github.com/voxelmorph/voxelmorph) \
+[Geo-SIC](https://github.com/jw4hv/Geo-SIC) \
+[Guided-Diffusion](https://github.com/openai/guided-diffusion) \
 
 ### References
-[Unbiased diffeomorphic atlas construction for computational anatomy](https://pubmed.ncbi.nlm.nih.gov/15501084/)
-[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233)
-[A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125)
-[MedShapeNet - A Large-Scale Dataset of 3D Medical Shapes for Computer Vision](https://arxiv.org/pdf/2308.16139.pdf)
+[Unbiased diffeomorphic atlas construction for computational anatomy](https://pubmed.ncbi.nlm.nih.gov/15501084/) \
+[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) \
+[A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125) \
+[MedShapeNet - A Large-Scale Dataset of 3D Medical Shapes for Computer Vision](https://arxiv.org/pdf/2308.16139.pdf) \
