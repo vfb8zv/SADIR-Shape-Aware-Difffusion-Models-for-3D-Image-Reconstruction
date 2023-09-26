@@ -31,10 +31,10 @@ For training our model, please refer to the "training.ipynb" Jupyter notebook.
 [Lagomorph](https://github.com/jacobhinkle/lagomorph) \
 [VoxelMorph](https://github.com/voxelmorph/voxelmorph) \
 [Geo-SIC](https://github.com/jw4hv/Geo-SIC) \
-[Guided-Diffusion](https://github.com/openai/guided-diffusion) \
+[Guided-Diffusion](https://github.com/openai/guided-diffusion) 
 
 ### References
 [Unbiased diffeomorphic atlas construction for computational anatomy](https://pubmed.ncbi.nlm.nih.gov/15501084/) \
 [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233) \
 [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125) \
-[MedShapeNet - A Large-Scale Dataset of 3D Medical Shapes for Computer Vision](https://arxiv.org/pdf/2308.16139.pdf) \
+[MedShapeNet - A Large-Scale Dataset of 3D Medical Shapes for Computer Vision](https://arxiv.org/pdf/2308.16139.pdf) 
