@@ -17,3 +17,19 @@ If you use our code, please cite: \
                   primaryClass={cs.CV}\
             \}
 
+### Usage
+Listed below are the requirements to set up the environment in order to train SADIR.
+##### Setup: 
+- Lagomorph (https://github.com/jacobhinkle/lagomorph)
+- PyTorch 1.12.0
+- GCC 11.2.0
+- CUDA 11.4.2 \
+For training our model, please refer to the "training.ipynb" Jupyter notebook.
+
+#### Referenced Data Repositories:
+[MedShapeNet](https://github.com/Jianningli/medshapenet-feedback) 
+
+### References
+[Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233): Part of the diffusion model code is from this paper. \
+[A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125) \
+Jian's geo-SIC
