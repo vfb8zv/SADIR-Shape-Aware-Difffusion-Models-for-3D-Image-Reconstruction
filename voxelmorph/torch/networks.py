@@ -4,6 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions.normal import Normal
 from .unet import UNetModel
+from .guided_diffusion.unet import UNetModel
 
 
 from .. import default_unet_features
@@ -205,14 +206,22 @@ class VxmDense(LoadableModel):
         
         if self.use_attention_unet==False:
         
-            self.unet_model = Unet(
-                inshape,
-                infeats=3,
-                nb_features=nb_unet_features,
-                nb_levels=nb_unet_levels,
-                feat_mult=unet_feat_mult,
-                nb_conv_per_level=nb_unet_conv_per_level,
-                half_res=unet_half_res,
+            self.unet_model = UNetModel(
+                image_size=64,
+                in_channels=3,
+                model_channels=16,
+                out_channels=3,
+                num_res_blocks=1,
+                attention_resolutions=(16,32),
+                channel_mult=(1, 2, 3, 4),
+                num_classes= None,
+                use_fp16=False,
+                num_heads=1,
+                num_head_channels=-1,
+                num_heads_upsample=-1,
+                use_scale_shift_norm=False,
+                resblock_updown=False,
+                use_new_attention_order=False,
             )
             
         else:
