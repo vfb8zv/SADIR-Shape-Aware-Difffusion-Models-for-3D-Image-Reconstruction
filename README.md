@@ -23,8 +23,7 @@ Listed below are the requirements to set up the environment in order to train SA
 - Lagomorph (https://github.com/jacobhinkle/lagomorph)
 - PyTorch 1.12.0
 - GCC 11.2.0
-- CUDA 11.4.2 \
-For training our model, please refer to the "training.ipynb" Jupyter notebook.
+- CUDA 11.4.2 
 
 #### Referenced Data Repositories:
 [MedShapeNet](https://github.com/Jianningli/medshapenet-feedback) 
@@ -32,4 +31,4 @@ For training our model, please refer to the "training.ipynb" Jupyter notebook.
 ### References
 [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233): Part of the diffusion model code is from this paper. \
 [A Diffusion Model Predicts 3D Shapes from 2D Microscopy Images](https://arxiv.org/abs/2208.14125) \
-Jian's geo-SIC
+[Geo-SIC: Learning Deformable Geometric Shapes in Deep Image Classifiers](https://proceedings.neurips.cc/paper_files/paper/2022/file/b328c5bd9ff8e3a5e1be74baf4a7a456-Paper-Conference.pdf)
