@@ -26,7 +26,7 @@ Listed below are the requirements to set up the environment in order to train SA
 - CUDA 11.4.2 
 
 #### Referenced Data Repositories:
-[MedShapeNet](https://github.com/Jianningli/medshapenet-feedback) 
+[MedShapeNet: A Large-scale Dataset of 3D Medical Shapes](https://github.com/Jianningli/medshapenet-feedback) 
 
 ### References
 [Diffusion Models Beat GANs on Image Synthesis](https://arxiv.org/abs/2105.05233): Part of the diffusion model code is from this paper. \
