@@ -19,11 +19,28 @@ If you use our code, please cite: \
 
 ### Usage
 Listed below are the requirements to set up the environment in order to train SADIR.
-##### Setup: 
+#### Setup: 
 - Lagomorph (https://github.com/jacobhinkle/lagomorph)
 - PyTorch 1.12.0
 - GCC 11.2.0
-- CUDA 11.4.2 
+- CUDA 11.4.2
+#### Scripts:
+Listed below are the scripts and instructions to train SADIR.
+##### Testing a pre-trained model (coming soon):
+- We have provided a sample testing script and organization, given in './sample_testing/' to test our model for the myocardium dataset.
+- Navigate into the folder and run $python testing.py to test the SADIR diffusion reconstruction model.
+- 2D slices and 3D volumes are stored in './results/predictions/'.
+
+##### Training from scratch:
+
+- Train the atlas builder in './atlas_builder' to obtain the atlas for a group of volumes. 
+- Save the atlas in './dataset/atlas/'.
+- Run $python training.py to start training the SADIR diffusion reconstruction model.
+- Trained models are stored in './results/trained_models/'
+- Finetune the atlas, if required.
+- Run $python testing.py to test the SADIR diffusion reconstruction model.
+  
+##### Note: all paths are relative, please set the directories in the training and testing scripts accordingly. 
 
 #### Referenced Data Repositories:
 [MedShapeNet: A Large-scale Dataset of 3D Medical Shapes](https://github.com/Jianningli/medshapenet-feedback) 
