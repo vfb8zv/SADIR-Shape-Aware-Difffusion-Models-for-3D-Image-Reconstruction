@@ -1,6 +1,6 @@
 # SADIR: Shape-Aware Diffusion Models for 3D Image Reconstruction 
 
-## * Being updated *
+## * Repository is currently being updated *
 
 This repository provides the PyTorch implementation of the paper: [SADIR: Shape-Aware Diffusion Models for 3D Image Reconstruction](https://arxiv.org/abs/2309.03335)
 
