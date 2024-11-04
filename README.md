@@ -1,7 +1,5 @@
 # SADIR: Shape-Aware Diffusion Models for 3D Image Reconstruction 
 
-## * Repository is currently being updated *
-
 This repository provides the PyTorch implementation of the paper: [SADIR: Shape-Aware Diffusion Models for 3D Image Reconstruction](https://arxiv.org/abs/2309.03335)
 
 ### Abstract:
@@ -29,10 +27,6 @@ Listed below are the requirements to set up the environment in order to train SA
 - CUDA 11.4.2
 #### Scripts:
 Listed below are the scripts and instructions to train SADIR.
-##### Testing a pre-trained model (coming soon):
-- We have provided a sample testing script and organization, given in './sample_testing/' to test our model for the myocardium dataset.
-- Navigate into the folder and run $python testing.py to test the SADIR diffusion reconstruction model.
-- 2D slices and 3D volumes are stored in './results/predictions/'.
 
 ##### Training from scratch:
 
